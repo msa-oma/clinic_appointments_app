@@ -8,4 +8,7 @@ flutter_native_splash:
  
  
    android_12:
+    image: assets/images/Frame-splash.png
+    color: "#ffffff"
+   
      
