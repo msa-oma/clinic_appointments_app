@@ -2,6 +2,7 @@ import 'package:clinic_appointments_app/core/theming/font_Weight_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'colors.dart';
+import 'font_weight_helper.dart';
 
 class TextStyles {
   static TextStyle font24BlackBold = TextStyle(
@@ -17,7 +18,9 @@ class TextStyles {
   );
 
   static TextStyle font13BlueRegular = TextStyle(
-    fontSize: 24.sp,
+
+    fontSize: 13.sp,
+ 
     fontWeight: FontWeightHelper.regular,
     color: ColorsManager.mainBlue,
   );
@@ -32,6 +35,13 @@ class TextStyles {
     fontWeight: FontWeightHelper.medium,
     color: ColorsManager.darkBlue,
   );
+ 
+  static TextStyle font14BlueSemiBold = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeightHelper.semiBold,
+    color: ColorsManager.mainBlue,
+  );
+ t
   static TextStyle font32BlueBold = TextStyle(
     fontSize: 32.sp,
     fontWeight: FontWeightHelper.bold,
@@ -69,11 +79,21 @@ class TextStyles {
   static TextStyle font16WhiteSemiBold = TextStyle(
     fontSize: 16.sp,
     fontWeight: FontWeightHelper.semiBold,
+ 
+    color: Colors.white,
+  );
+ 
     color: Colors.white,
   );
   static TextStyle font16WhiteMedium = TextStyle(
     fontSize: 16.sp,
     fontWeight: FontWeightHelper.medium,
     color: Colors.white,
+  );
+
+  static TextStyle font15DarkBlueMedium = TextStyle(
+    fontSize: 15.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: ColorsManager.darkBlue,
   );
 }
