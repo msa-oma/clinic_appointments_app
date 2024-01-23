@@ -1,6 +1,5 @@
-import 'package:clinic_appointments_app/features/login/data/models/login_request_body.dart';
 import 'package:clinic_appointments_app/features/login/logic/cubit/login_cubit.dart';
-import 'package:clinic_appointments_app/features/login/ui/widgets/already_have_account_text.dart';
+import 'package:clinic_appointments_app/features/login/ui/widgets/dont_have_account_text.dart';
 import 'package:clinic_appointments_app/features/login/ui/widgets/email_and_password.dart';
 import 'package:clinic_appointments_app/features/login/ui/widgets/terms_and_conditions.dart';
 import 'package:flutter/material.dart';
@@ -63,7 +62,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                   const TermsAndConditionsText(),
                   verticalSpace(60),
-                  const AlreadyHaveAccountText(),
+                  const DontHaveAccountText(),
                   const LoginBlocListener(),
                 ],
               )
@@ -76,9 +75,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   void validateThenDOLogin(BuildContext context) {
     if (context.read<LoginCubit>().formekey.currentState!.validate()) {
-      context.read<LoginCubit>().emitLoginStates(LoginRequestBody(
-          email: context.read<LoginCubit>().emailController.text,
-          password: context.read<LoginCubit>().passwordController.text));
+      context.read<LoginCubit>().emitLoginStates();
     }
   }
 }
