@@ -4,6 +4,8 @@ class ApiConstants {
 }
 
 //dart run build_runner build --delete-conflicting-outputs
+//email: msa@hms.co
+//pass: msa@HIbs99
 
 class ApiErrors {
   static const String badRequestError = "badRequestError";
