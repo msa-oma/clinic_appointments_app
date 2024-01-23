@@ -413,6 +413,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.18.1"
+<<<<<<< HEAD
+=======
   io:
     dependency: transitive
     description:
@@ -421,6 +423,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.4"
+>>>>>>> 338ddc33c39b90562cf40829d764073905ab75a8
   js:
     dependency: transitive
     description:
@@ -485,6 +488,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.0"
+<<<<<<< HEAD
+=======
   mime:
     dependency: transitive
     description:
@@ -493,6 +498,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.4"
+>>>>>>> 338ddc33c39b90562cf40829d764073905ab75a8
   nested:
     dependency: transitive
     description:
@@ -762,6 +768,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.2"
+<<<<<<< HEAD
+=======
   stream_transform:
     dependency: transitive
     description:
@@ -770,6 +778,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
+>>>>>>> 338ddc33c39b90562cf40829d764073905ab75a8
   string_scanner:
     dependency: transitive
     description:
@@ -794,6 +803,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.1"
+<<<<<<< HEAD
+=======
   timing:
     dependency: transitive
     description:
@@ -802,6 +813,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
+>>>>>>> 338ddc33c39b90562cf40829d764073905ab75a8
   tuple:
     dependency: transitive
     description:
@@ -874,6 +886,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.3.0"
+<<<<<<< HEAD
+=======
   web_socket_channel:
     dependency: transitive
     description:
@@ -882,6 +896,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.4.0"
+>>>>>>> 338ddc33c39b90562cf40829d764073905ab75a8
   win32:
     dependency: transitive
     description:
