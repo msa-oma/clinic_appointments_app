@@ -1,4 +1,4 @@
- import 'package:clinic_appointments_app/features/login/data/models/login_request_body.dart';
+import 'package:clinic_appointments_app/features/login/data/models/login_request_body.dart';
 import 'package:clinic_appointments_app/features/login/logic/cubit/login_cubit.dart';
 import 'package:clinic_appointments_app/features/login/ui/widgets/already_have_account_text.dart';
 import 'package:clinic_appointments_app/features/login/ui/widgets/email_and_password.dart';
@@ -11,9 +11,6 @@ import '../../../core/helper/spacing.dart';
 import '../../../core/theming/styles.dart';
 import '../../../core/widgets/app_text_button.dart';
 import 'widgets/login_bloc_listener.dart';
-  import 'package:clinic_appointments_app/core/widgets/app_text_form_field.dart';
- 
-import '../../../core/widgets/app_text_button.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -45,7 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 style: TextStyles.font14GrayRegular,
               ),
               verticalSpace(36),
-               Column(
+              Column(
                 children: [
                   const EmailAndPassword(),
                   verticalSpace(24),
@@ -83,9 +80,5 @@ class _LoginScreenState extends State<LoginScreen> {
           email: context.read<LoginCubit>().emailController.text,
           password: context.read<LoginCubit>().passwordController.text));
     }
- 
-                    
-        
- 
   }
 }
