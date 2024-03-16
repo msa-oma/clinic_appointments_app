@@ -55,6 +55,7 @@ dependencies:
   flutter_svg: ^2.0.9
 ##responcive UI  
   flutter_screenutil: ^5.9.0
+  firebase_core: ^2.27.1
 
    
 
