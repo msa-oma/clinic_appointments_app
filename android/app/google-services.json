@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "412307283483",
+    "project_id": "flutter-app-distribution-clinc",
+    "storage_bucket": "flutter-app-distribution-clinc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412307283483:android:7ac0263133d0ae24d162be",
+        "android_client_info": {
+          "package_name": "com.example.clinic_appointments_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIUXw7cKOtbJQ92yx-gRCSG2iFo-WO_yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
