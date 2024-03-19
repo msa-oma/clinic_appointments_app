@@ -11,11 +11,12 @@ platform :android do
     sh "flutter build apk --release --flavor production --target lib/main_production.dart --no-tree-shake-icons"
     firebase_app_distribution(
       app: "1:412307283483:android:7ac0263133d0ae24d162be",
-      firebase_cli_token:EVN["FIREBASE_CLI_TOKEN"],
-      android_artifact_type:"APK",
-      android_artifact_path:"../build/app/outputs/flutter-apk/app-production-release.apk",
-      testers:"m.s.a.oma6727@gmail.com",
-      release_notes:"second fastlane firebase distribution"
-    )
+ 
+      firebase_cli_token: EVN["FIREBASE_CLI_TOKEN"],
+      android_artifact_type: "APK",
+      android_artifact_path: "../build/app/outputs/flutter-apk/app-production-release.apk",
+      testers: "m.s.a.oma6727@gmail.com", 
+      release_notes: "second fastlane firebase distribution"
+     )
   end 
 end
